@@ -225,7 +225,7 @@ img {
   align-self: center;
   font-size: var(--big-font-size);
   line-height: 1;
-  letter-spacing: .4rem;
+  letter-spacing: .12rem;
   margin-bottom: 4rem;
 }
 
