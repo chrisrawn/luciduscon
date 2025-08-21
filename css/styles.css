@@ -1,3 +1,4 @@
+styles.css
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
@@ -30,7 +31,7 @@
 
 @media screen and (min-width: 768px) {
   :root {
-    --big-font-size: 4rem;
+    --big-font-size: 6rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --normal-font-size: 1rem;
@@ -212,15 +213,12 @@ img {
 
 .home__container
 {
-  /*height: calc(100vh - var(--header-height));*/
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  height: calc(100vh - var(--header-height));
 }
 
 .home__data
 {
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 .home__title
@@ -228,7 +226,7 @@ img {
   align-self: center;
   font-size: var(--big-font-size);
   line-height: 1;
-  letter-spacing: .12rem;
+  letter-spacing: .5rem;
   margin-bottom: 4rem;
 }
 
